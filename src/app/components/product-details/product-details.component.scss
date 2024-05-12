@@ -1,0 +1,36 @@
+.container {
+  margin: 0 auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.mat-card {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  margin-right: 20px;
+  position: relative;
+    top: 10px;
+}
+
+.mat-mdc-card {
+  background-color: rgb(255, 255, 255) !important;
+  color: black;
+  margin-right: 10px;
+  border: solid;
+  border-color: rgb(108, 190, 163);
+  border-radius: 5px;
+  border-width: 3px;
+  position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.button {
+  margin-right: 5px;
+}
+
+.image {
+  max-width: 300px;
+}

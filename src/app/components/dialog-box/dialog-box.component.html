@@ -1,0 +1,38 @@
+<form [formGroup]="myForm" (ngSubmit)="onSubmit()" class="example-form" >
+  <mat-form-field class="example-full-width" appearance="fill" color="accent">
+    <mat-label>Товар</mat-label>
+    <input matInput formControlName="title">
+  </mat-form-field>
+  <mat-form-field class="example-full-width" appearance="fill" color="accent">
+    <mat-label>Цена</mat-label>
+    <input matInput formControlName="price">
+  </mat-form-field>
+  <mat-form-field class="example-full-width" appearance="fill" color="accent">
+    <mat-label>Год выпуска</mat-label>
+    <input matInput formControlName="year">
+  </mat-form-field>
+  <mat-form-field class="example-full-width" appearance="fill" color="accent">
+    <mat-label>Процессор</mat-label>
+    <input matInput formControlName="chip">
+  </mat-form-field>
+  <mat-form-field class="example-full-width" appearance="fill" color="accent">
+    <mat-label>SSD</mat-label>
+    <input matInput formControlName="ssd">
+  </mat-form-field>
+  <mat-form-field class="example-full-width" appearance="fill" color="accent">
+    <mat-label>Оперативная память</mat-label>
+    <input matInput formControlName="memory">
+
+  </mat-form-field>
+  <mat-form-field class="example-full-width" appearance="fill" color="accent">
+    <mat-label>Монитор</mat-label>
+    <input matInput formControlName="display">
+  </mat-form-field>
+
+
+  <button class="button" mat-flat-button style="margin-right: 2px" color="accent" type="submit">
+    {{isNew ? 'Добавить Товар' : 'Обновить'}}</button>
+  <button class="button" mat-flat-button color="accent" (click)="onNoClick()" type="button">Отмена</button>
+
+
+</form>

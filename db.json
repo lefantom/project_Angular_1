@@ -1,0 +1,86 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "16.1 MacBook Pro",
+      "price": "1000",
+      "year": "2023",
+      "image": "assets/images/macbook.jpeg",
+      "configure": {
+        "chip": "M1",
+        "ssd": "256",
+        "memory": "16",
+        "display": "IPS"
+      }
+    },
+    {
+      "id": 2,
+      "title": "15.1 MacBook",
+      "price": "1200",
+      "year": "2024",
+      "image": "assets/images/macbook.jpeg",
+      "configure": {
+        "chip": "",
+        "ssd": "",
+        "memory": "",
+        "display": ""
+      }
+    },
+    {
+      "id": 3,
+      "title": "13.2 MacBook Air",
+      "price": "900",
+      "year": "2022",
+      "image": "assets/images/macbook.jpeg",
+      "configure": {
+        "chip": "",
+        "ssd": "",
+        "memory": "",
+        "display": ""
+      }
+    },
+    {
+      "id": 4,
+      "title": "16.2 MacBook Pro",
+      "price": "4550",
+      "year": "2024",
+      "image": "assets/images/macbook.jpeg",
+      "configure": {
+        "chip": "M3 Max",
+        "ssd": "1000",
+        "memory": "48",
+        "display": "mini-LED"
+      }
+    }
+  ],
+  "basket": [
+    {
+      "id": 2,
+      "title": "15.1 MacBook",
+      "price": "1200",
+      "year": "2024",
+      "image": "assets/images/macbook.jpeg",
+      "configure": {
+        "chip": "",
+        "ssd": "",
+        "memory": "",
+        "display": ""
+      },
+      "quantity": 1
+    },
+    {
+      "id": 1,
+      "title": "16.1 MacBook Pro",
+      "price": "1000",
+      "year": "2023",
+      "image": "assets/images/macbook.jpeg",
+      "configure": {
+        "chip": "",
+        "ssd": "",
+        "memory": "",
+        "display": ""
+      },
+      "quantity": 1
+    }
+  ]
+}
